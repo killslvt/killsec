@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const titleElement = document.getElementById('animated-title');
     const cursorElement = document.getElementById('cursor');
-    const texts = ["Intruder", ".gg/vexhub", "Members"]; // Array of texts to be typed
+    const texts = ["killsec", "Members"]; // Array of texts to be typed
     const typingSpeed = 150;
     const backspaceSpeed = 100;
     const delayBeforeBackspace = 1000;
