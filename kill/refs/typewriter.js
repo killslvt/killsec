@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
     const titleElement = document.getElementById('animated-title');
     const cursorElement = document.getElementById('cursor');
-    const texts = ["killsec", "Members"]; // Array of texts to be typed
+    const texts = ["killsec", "Members"];
     const typingSpeed = 150;
     const backspaceSpeed = 100;
     const delayBeforeBackspace = 1000;
     const delayBeforeRestart = 1000;
 
-    let textIndex = 0; // Keeps track of the current text
-    let charIndex = 0; // Keeps track of the current character
+    let textIndex = 0;
+    let charIndex = 0; 
     let isTyping = true;
 
     function type() {
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 setTimeout(type, backspaceSpeed);
             } else {
                 isTyping = true;
-                textIndex = (textIndex + 1) % texts.length; // Move to the next text
+                textIndex = (textIndex + 1) % texts.length; 
                 setTimeout(type, delayBeforeRestart);
             }
         }
