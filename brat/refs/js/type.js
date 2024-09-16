@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const typing = document.getElementById('typing');
-    const texts = ["dollhouse of feeling", "brat", ".gg/vexhub"];
+    const texts = ["dollhouse of feeling", "brat", "KILL"];
     let textIndex = 0;
     let charIndex = 0;
     let isTypingForward = true;
